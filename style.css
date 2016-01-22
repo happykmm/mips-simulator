@@ -1,0 +1,71 @@
+body {
+	display: block;
+}
+.container  {
+	width: 1300px;
+	/*height: 400px;*/
+	margin: 20px auto;
+	text-align: center;
+	/*background-color: red;*/
+}
+#footer {
+	width: 100%;
+	height: 100px;
+}
+h3 {
+	display: block;
+}
+#main {
+	width: 100%;
+}
+.mips-wrap  {
+	width: 25%;
+	float: left;
+}
+.code-wrap {
+	width: 25%;
+	float: left;
+}
+.console-wrap{
+	width: 30%;
+	float: left;
+}
+
+.memory-wrap {
+	width: 20%;
+	float: left;
+}
+
+#console {
+	width: 100%;
+	height: 400px;
+	background-color: #000;
+	color: #fff;
+	font-family: Monaco, Menlo, 'Ubuntu Mono', Consolas, source-code-pro, monospace;
+	font-size: 12px;
+	text-align: left;
+	overflow-y:  auto;
+}
+
+#memory {
+	width: 100%;
+	height: 400px;
+	background-color: #000;
+	color: #fff;
+	font-family: Monaco, Menlo, 'Ubuntu Mono', Consolas, source-code-pro, monospace;
+	font-size: 12px;
+	text-align: left;
+	overflow-y:  auto;
+}
+
+
+.clear-float {
+	clear: both;
+	width: 0px;
+	height: 0px;
+}
+
+.editor {
+	height: 400px;
+	text-align: left;
+}

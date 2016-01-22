@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<title>MIPS 模拟器</title>
+	<link rel="stylesheet" href="style.css">
+</head>	
+<body>
+	<div class="container">
+		<div>
+			<button id="exec-line">单步执行</button>
+		</div>
+		<div id="main">
+			<div class="mips-wrap">
+				<h3>MIPS指令</h3>
+				<div id="mips" class="editor">
+				</div>
+			</div>
+			<div class="code-wrap">
+				<h3>机器码</h3>
+				<div id="code" class="editor"></div>
+			</div>
+			<div class="console-wrap">
+				<h3>寄存器</h3>
+				<div id="console">
+					this is command line<br>
+				</div>
+			</div>
+
+			<div class="memory-wrap">
+				<h3>内存</h3>
+				<div id="memory">
+					this is momory<br>
+				</div>
+			</div>
+			<div class="clear-float"></div>
+		</div>
+		<div id="footer">
+			MIPS 模拟器, created by 
+			<a href="https://github.com/lxdyran">ZhongYu</a><br>
+			<a href="readme.txt">查看说明</a>
+		</div>
+	</div>
+
+	
+	<script src="js/jquery.js"></script>
+	<script src="ace/ace.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/register.js"></script>
+	<script src="js/memory.js"></script>
+	<script src="js/machine_code.js"></script>
+	<script src="js/mips_command.js"></script>
+	<script src="js/exec.js"></script>
+	<script src="js/editor.js"></script>
+</body>
+</html>
