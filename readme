@@ -1,17 +1,23 @@
 MIPS模拟器
-created by ZhongYu, https://github.com/lxdyran
+
 
 1.功能说明
 模拟器运行界面设计：	
 	图形界面，包括MIPS编辑器、机器码编辑器、寄存器查看器、内存查看器；
-	Mips<->机器码的实时自动汇编、反汇编；	
+	
+Mips<->机器码的实时自动汇编、反汇编；	
 	单步执行指令，观察寄存器、内存的变化
-	严密的查错和反馈提示
-指令伪指令的汇编反汇编：
-	R类型：add、sub 、slt	
+
+	严密的查错和反馈提示
+
+
+指令伪指令的汇编反汇编：
+	
+R类型：add、sub 、slt	
 	操作内存：lw、lh、lb、sw、sh、sb	
 	其他I类型：addi、beq、bne、jr
-	J类型：j、jal
+	
+J类型：j、jal
 	能够处理Label，宽松格式要求，支持注释
 
 
